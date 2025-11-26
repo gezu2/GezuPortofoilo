@@ -37,7 +37,7 @@ module.exports = {
       },
       boxShadow: {
         greenShadow: "0px 0px 188px -14px rgba(237,255,32,1)",
-        testShwdow: "11px 0px 13px -15px rgba(0,0,0,1)",
+        testShwdow: "11px 0px 13px -15px rgba(0,0,0,0.75)",
       },
     },
   },
