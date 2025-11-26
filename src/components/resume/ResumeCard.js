@@ -1,4 +1,3 @@
-import React from "react";
 
 const ResumeCard = ({ badge, title, subTitle, des }) => {
   return (

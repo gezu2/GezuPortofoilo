@@ -6,50 +6,54 @@ import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
-    <div className="w-full grid grid-cols-9 px-6">
-      <div className="col-span-9 md:col-span-4">
+    <div className="w-full grid grid-cols-9 px-6 gap-6">
+      {/* Experience Section */}
+      <div className="col-span-9 md:col-span-4 space-y-6">
         <ResumeTitle title="Experience" icon={<MdWork />} />
+
         <ResumeCard
-          badge=""
-          title="Web Developer"
-          subTitle="Facebook Inc."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2016 - 2020"
+          title="Call Center Advisor"
+          subTitle="EthioTelecom"
+          des="Handled customer inquiries and technical support, resolving issues efficiently. Achieved a 95% customer satisfaction rating and assisted in training new advisors."
         />
+
         <ResumeCard
-          badge="2011 - 2012"
-          title="Front-end Developer"
-          subTitle="Google Inc."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2021 - Present"
+          title="Fixed Network Technician"
+          subTitle="Freelance & EthioTelecom"
+          des="Configured and maintained telecommunication networks, diagnosing and resolving technical faults. Collaborated with teams to optimize network performance and reliability."
         />
+
         <ResumeCard
-          badge="2009 - 2010"
-          title="Senior Developer"
-          subTitle="ReactBD.com."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2023 - Present"
+          title="Full Stack Developer & Fixed Network Technician"
+          subTitle="Freelance & EthioTelecom"
+          des="Designed and developed full stack web applications using React, Node.js, and MySQL. Integrated front-end and back-end solutions, improving system efficiency and user experience."
         />
       </div>
+
+      {/* Vertical Divider */}
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
-      <div className="col-span-9 md:col-span-4">
+
+      {/* Education Section */}
+      <div className="col-span-9 md:col-span-4 space-y-6">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
+
         <ResumeCard
-          badge="2012 - 2014"
-          title="North South University"
-          subTitle="Dhaka"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2011 - 2015"
+          title="BSc in Electrical and Computer Engineering"
+          subTitle="Arba Minch University, Ethiopia"
+          des="Specialized in telecommunications, digital systems, and software development. Completed final-year project on network optimization."
         />
+
         <ResumeCard
-          badge="2015 - 2016"
-          title="Programming Course"
-          subTitle="UK"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
-        />
-        <ResumeCard
-          badge="2018 - 2021"
+          badge="2023 - 2024"
           title="MERN Stack Developer"
-          subTitle="Dhaka"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          subTitle="Evangadi Network"
+          des="Completed an intensive Full Stack Web Development program covering MongoDB, Express.js, React.js, and Node.js. Built multiple real-world projects and deployed web applications."
         />
       </div>
     </div>

@@ -1,5 +1,3 @@
-import React from "react";
-
 const FunFactCard = ({ icon, des }) => {
   return (
     <div className="w-full">
